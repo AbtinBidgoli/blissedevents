@@ -16,12 +16,6 @@ http://gsgd.co.uk/sandbox/jquery/easing/
 Modernizr
 http://modernizr.com/
 
-Google Fonts
-https://www.google.com/fonts/
-
-Google Map
-http://maps.google.com/
-
 Icomoon
 https://icomoon.io/app/
 
