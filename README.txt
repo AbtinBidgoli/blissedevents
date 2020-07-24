@@ -1,6 +1,6 @@
 
 TITLE: 
-Blissed Events Wedding Theme - 100% Fully Responsive Free HTML5 Bootstrap Template
+Blissed Events Wedding Theme - 100% Fully Responsive HTML5 Bootstrap
 
 CREDITS:
 
