@@ -94,7 +94,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    opacity: .8
+    opacity: .24
 }
 
 a {
@@ -282,7 +282,7 @@ button:focus{
     width: 100%;
     left: 0;
     top: 0;
-	opacity: 0.5;
+	opacity: 0.24;
 }
 
 .cover-slides h1{
@@ -760,7 +760,7 @@ button:focus{
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	opacity: 0.8;	
+	opacity: 0.24;	
 }
 .all-page-title h1{
 	font-size: 38px;
@@ -821,7 +821,7 @@ button:focus{
     position: absolute;
     bottom: 50px;
     left: 50%;
-    opacity: 0;
+    opacity: 0.24;
     transform: translateX(-50%);
     transition: all 0.3s cubic-bezier(0.5, 0.2,0.1,0.9);
 }
@@ -912,12 +912,12 @@ button:focus{
 	color: #F0CDB9;
 	background-color: transparent;
 	background-image: none;
-	border-color: #cfa671;
+	border-color: #F0CDB9;
 }
 .btn.btn-common:hover{
 	color: #ffffff;
-	background-color: #cfa671;
-	border-color: #cfa671;
+	background-color: #F0CDB9;
+	border-color: #F0CDB9;
 }
 .blog-box{
 	padding: 70px 0px;
