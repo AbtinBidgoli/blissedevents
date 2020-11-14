@@ -160,7 +160,8 @@ button:focus{
 .top-navbar{
 	position: relative;
 	z-index: 10;
-	opacity: 1;
+	background: rgba(0,0,0,0.5);
+	
 }
 
 .top-navbar .navbar{
