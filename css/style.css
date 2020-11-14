@@ -85,7 +85,7 @@ h5 a,
 h6 a {
     color: #212121;
     text-decoration: none!important;
-    opacity: 1
+    opacity: 1;
 }
 
 h1 a:hover,
@@ -94,7 +94,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-    opacity: .24
+    opacity: .24;
 }
 
 a {
@@ -160,7 +160,7 @@ button:focus{
 .top-navbar{
 	position: relative;
 	z-index: 10;
-	
+	opacity: 1;
 }
 
 .top-navbar .navbar{
@@ -179,7 +179,7 @@ button:focus{
 	font-size: 18px;
 	padding: 0px 20px;
 	border-radius: 4px;
-	opacity: 1;
+	
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
