@@ -184,6 +184,24 @@ button:focus{
 	
 }
 
+.top-navbar .navbar-dark .navbar-nav .nav-link{
+	color: #010101;
+	font-size: 18px;
+	padding: 0px 20px;
+	border-radius: 4px;
+	
+}
+
+.top-navbar .navbar-dark .navbar-nav .nav-item .nav-link:hover{
+	background: #F0CDB9;
+	color: #ffffff;
+}
+.top-navbar .navbar-dark .navbar-nav .nav-item.active .nav-link{
+	background: #F0CDB9;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
 	background: #F0CDB9;
 	color: #ffffff;
