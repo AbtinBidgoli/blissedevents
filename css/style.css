@@ -572,6 +572,9 @@ button:focus{
 
 .overflow-hidden {
     overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-imfo-box i{
