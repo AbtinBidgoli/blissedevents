@@ -30,6 +30,13 @@ created for Eliza
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
+	
+	<!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
 
 	<script src="https://kit.fontawesome.com/f8d2a1b004.js" crossorigin="anonymous"></script>
@@ -125,33 +132,29 @@ created for Eliza
 								</div> 
 							</div>
 							<div class="col-md-12">
-								<div class="form-group" placeholder="Event Date Optional">
-									<div class='input-group date' id='datetimepicker5'>
-										<input type='date' placeholder="Blissed Events Calabasas" id="date" class="form-control">
-        							        	<span class="glyphicon glyphicon-calendar"></span>
-										<span class="input-group-addon">
-       								        	<span class="glyphicon glyphicon-calendar"></span>
-      								         	</span>
-            								</div>
-									<div class="help-block with-errors"></div>
-								</div> 
+								<div class="form-group">
+									<input class="form-control" id="date" name="date" placeholder="Event Day Optional" type="text">
+     									<div class="help-block with-errors"></div>
+								</div>
 							</div>
 							
-   							<script type="text/javascript">
-    								$(function () {
-        								$('#datetimepicker5').datetimepicker({
-       							          		defaultDate: "11/20/2020",
-          							       		disabledDates: [
-			     								moment("11/24/2020"),
-											moment("11/30/2020")
-              									]
-         								});
-      								});
-     							</script>
+							<script>
+   								$(document).ready(function(){
+      									var date_input=$('input[name="date"]'); //our date input has the name "date"
+     									var container=$('.contact-box form').length>0 ? $('.contact-box form').parent() : "body";
+    									var options={
+   							    			format: 'mm/dd/yyyy',
+   							    			container: container,
+  							    		 	todayHighlight: true,
+ 							    		  	autoclose: true,
+ 							    		};
+ 								  	date_input.datepicker(options);
+ 						   		})
+							</script>
 							
 							<div class="col-md-12">
 								<div class="form-group"> 
-									<textarea class="form-control" id="message" placeholder="*Message" rows="2" data-error="Write your message" required></textarea>
+									<textarea class="form-control" id="message" placeholder="*Message" rows="2" data-error="Please write your message" required></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="submit-button text-center">
@@ -259,6 +262,5 @@ created for Eliza
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
 
-	
 </body>
 </html>
