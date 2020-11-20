@@ -130,13 +130,14 @@ created for Eliza
 									<div class="help-block with-errors"></div>
 								</div> 
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-12">
 								<div class="form-group">
 									<div class='input-group date' id='datetimepicker5'>
-        							        	<input type='date' placeholder="Event Date Optional" id="date" class="form-control">
+        							        	<span class="glyphicon glyphicon-calendar">
+										<input type='date' id="date" class="form-control">
         							        	<span class="input-group-addon">
        								        	<span class="glyphicon glyphicon-calendar"></span>
-      								         	</span>
+      								         	</span></span>
             								</div>
 									<div class="help-block with-errors"></div>
 								</div> 
@@ -148,7 +149,7 @@ created for Eliza
        							          		defaultDate: "11/20/2020",
           							       		disabledDates: [
 			     								moment("11/24/2020"),
-											moment("11/30/2020"),
+											moment("11/30/2020")
               									]
          								});
       								});
