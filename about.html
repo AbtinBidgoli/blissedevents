@@ -98,6 +98,12 @@ created for Eliza
 					<div class="inner-column">
 						<h1><span>Elizabeth Moradi</span></h1>
 						<h4>My Story</h4>
+						<div id="typed-strings">
+							<p>~ <strong>MBA</strong> ~</p> 
+							<p>~ <strong>Marketing background</strong> ~</p>
+							<p>~ <strong>Film distribution background</strong> ~</p>
+							<p>~ <strong>Proud mommy of 2</strong> ~</p>
+						</div>
 						<p>"Blissed is a one woman show! I do it all from coordinating and planning, actual on
                                 site styling and designing to taking all the photographs! I pride myself in creating a
                                 truly custom experience, unique to each client and their desires."  </p>
@@ -138,6 +144,16 @@ created for Eliza
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script>
+  		var typed = new Typed('#typed', {
+    		stringsElement: '#typed-strings',
+		typeSpeed: 72,
+		backSpeed: 24,
+		fadeOut: false,
+    		loop: true
+  		});
+	</script>
     <!-- ALL PLUGINS -->
     <script src="js/jquery.superslides.min.js"></script>
     <script src="js/images-loded.min.js"></script>
