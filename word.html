@@ -204,13 +204,68 @@ created for Eliza
 					 <h1><span>FAQ</span></h1>
 				</div>
                		</div>
+			
+<button class="accordion">What are your rates?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">Rates depend on the following variables:<br>
+~ event date<br>
+~ number of guests<br>
+~ location<br>
+DM these details for a faster quote!</span></p>
+</div>
 
+<button class="accordion">Why can't I just get a quote? Why does it depend on so many factors?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">Since every event is so different, each one will require a different level of commitment from me. A 300 person event in a month will require much more time and effort than for example, a small birthday that's 6 months away.</span></p>
+</div>
+
+<button class="accordion">Does your rate cover the entire event?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">My rate is strictly for handling your event so that you're stress free! The costs of the event such as:<br>
+~ food<br>
+~ decor<br>
+~ rentals<br>
+~ florals<br>
+are additional.</span></p>
+</div>
+
+<button class="accordion">How early should I contact you for my event?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">As soon as you know you're having one! But really at the very minimum 3 weeks notice please.</span></p>
+</div>
+
+<button class="accordion">I know exactly what I want, can I just hire you for the vendors and to carry out my vision?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">Absolutely! And if you have no idea what you want I can send you insirational photos.</span></p>
+</div>
+
+<button class="accordion">How do I handle payment with the vendors?</button>
+<div class="panel">
+  <p><span style="color:#1A3952">You may pay the vendors individually or pay me directly.</span></p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 			
            	  </div>
 	   </div>
 	</div>
     </div>
-	<!-- End Press -->
+	<!-- End FAQ -->
 		
 		
 	<!-- Start Social info -->
