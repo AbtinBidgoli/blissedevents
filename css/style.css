@@ -154,7 +154,6 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .levitate-body:after {
-  content: '__________';
   margin: 10px 0 0 0;
   color: #a0c2ce;
   -webkit-filter: blur(2px);
