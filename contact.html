@@ -62,9 +62,15 @@ created for Eliza
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script>
+	$(window).load(function() {
+   	$('.preloader').fadeOut('slow');
+	});
+	</script>
 </head>
 
 <body>
+<div class="preloader"></div>
     <!-- Start header -->
     <header class="top-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
