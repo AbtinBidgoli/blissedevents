@@ -204,7 +204,7 @@ button:focus{
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333333;
+    background: #999999;
     z-index: 11000;
     position: fixed;
     display: block
@@ -235,7 +235,7 @@ button:focus{
 }
 .loader:before,
 .loader:after{
-    content: "Loading...";
+    content: "";
     display: block;
     width: 160px;
     height: 160px;
