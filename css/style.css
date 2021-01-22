@@ -218,6 +218,8 @@ button:focus{
   position: absolute;
   top: calc(50% - 100px);
   left: calc(50% - 60px);
+  right: calc(50% - 60px);
+
 }
 
 .loader{
@@ -243,6 +245,7 @@ button:focus{
     position: absolute;
     top: -5px;
     left: 0;
+    right: 0;
 }
 .loader:before{
     border-top: 5px solid #1A3952;
@@ -261,6 +264,7 @@ button:focus{
     position: absolute;
     top: -5px;
     left: 0;
+    right: 0;
     -webkit-animation: 2s loading2 linear infinite;
     animation: 2s loading2 linear infinite;
 }
