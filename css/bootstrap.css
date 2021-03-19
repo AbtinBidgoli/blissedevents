@@ -3580,7 +3580,7 @@ tbody.collapse.in {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   min-height: 55px;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -3733,7 +3733,7 @@ tbody.collapse.in {
 }
 
 .navbar-toggle {
-  position: relative;
+  position: fixed;
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
