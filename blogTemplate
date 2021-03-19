@@ -1,0 +1,273 @@
+<!--
+ Abtin Bidgoli
+developed for Eliza
+ Blissed Events
+ -->
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-54B8Y0TD7R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-54B8Y0TD7R');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Blog Template~Blissed Events Calabasas, CA</title>
+    <meta name="description" content="✨Blissed Events 📍Calabasas, CA ✨Event Producer specializing in⁣ ✨Design ✨Styling ✨Content Creation ✨A Daily Dose of Bliss 😌⁣">
+    <meta name="keywords" content="Blissed Events, Specializing, Design, Styling, Content Creation, Planning, Coordinating, Styling, Decor, Catering, Florals, Music, Photography, Entertainment, Dessert tables, Balloons, Personalized details">
+    <meta name="author" content="Blissed Events ✨Elizabeth Moradi">
+	<!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="✨Blissed Events 📍Calabasas, CA" /> <!-- website name -->
+	<meta property="og:site" content="https://blissedevents.net" /> <!-- website link -->
+	<meta property="og:title" content="Event Producer specializing in⁣ ✨Design ✨Styling ✨Content Creation⁣ 📍Calabasas, CA"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Event Producer specializing in⁣ ✨Design ✨Styling ✨Content Creation⁣ 📍Calabasas, CA" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="images/ElizaBlissed.jpeg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Site Icons -->
+        <link rel="shortcut icon" href="images/favicon1.png" type="image/x-icon">
+        <link rel="apple-touch-icon" href="images/favicon1.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+	<script src="https://kit.fontawesome.com/f8d2a1b004.js" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script>
+	$(window).load(function() {
+   	$('.preloader').fadeOut('slow');
+	});
+	</script>
+</head>
+
+<body>
+	<!-- LOADER -->
+    <div id="preloader">
+		<div id="main-ld">
+			<div class="loader">
+				<span class="loader-inner"><img src="images/spinning.png" alt="✨Blissed Events 📍Calabasas, CA"></span>
+			</div>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+    <!-- Start header -->
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+                				<a class="navbar-brand" href="#">
+                    					<img src="images/aaa.png" alt="✨Blissed Events 📍Calabasas, CA">
+                				</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-rs-food">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Meet the Designer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="blogdet.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    
+		<!-- Start blog details -->
+	<div class="blog-box">
+	  <div class="container">
+		  <div class="row">
+               			<div class="col-lg-12">
+					<h4></h4><br><br>
+				</div>
+            		</div>
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-12">
+					<div class="blog-inner-details-page">
+						<div class="blog-inner-box">
+							
+							<div class="side-blog-img">
+								<img class="img-fluid rounded" src="images/Haftseen.JPG" alt="Blog Images">							
+								<div class="date-blog-up">
+									March 18th
+								</div>
+							</div>
+							<!--
+							<div class="side-blog-img">
+								<video src="images/BE.mp4" height="50%" width="100%" controls></video>
+							</div>
+							-->
+							<div class="inner-blog-detail details-page">
+								<h3>Let’s Design a Haftseen Table</h3>
+								<ul>
+									<li><i class="zmdi zmdi-account"></i>Posted By : <span>Elizabeth Moradi</span></li>
+									<li>~</li>
+									<li><i class="zmdi zmdi-time"></i>Time : <span>1:50 am</span></li>
+								</ul>
+								<p><a href="https://www.amazon.com/shop/blissedevents" target="_blank" rel="noopener noreferrer"><span style="color:#1A3952">https://www.amazon.com/shop/blissedevents</span></a></p>
+								<p>With the first day of spring only days away, it’s time to set the traditional haftseen table for Nowruz, or Persian New Year! The ‘haft-seen’ (seven “seens”) is a beautiful spread of at least seven symbolic items that begin with the “s” sound.</p>
+								<p>I wanted a slightly rustic look this year so I incorporated a lot of woods, browns and golds in my haftseen. Light and bright fresh florals add a nice contrast to the dark colors, and I used crystal vases and dishes to add an additional element of disparity.</p>
+								<blockquote>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen1.JPG" alt="Haftseen Table">
+									</div>
+								</div>
+								<p>My seven “seens” are sabzeh (wheatgrass), sumac, samanu (wheat pudding), senjed (dry lotus tree fruit), serkeh (vinegar), seeb (apple), and seer (garlic). Persians typically add other items to the haftseen, such as colored eggs, coins, a mirror and a ‘book of wisdom’ such as the Quran or even the book of Hafiz. You may also include a personal item that is symbolic to your family. I added a crystal stone and a gold eshgh (love) sign.</p>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen2.JPG" alt="Haftseen Table">
+									</div>
+								</div>
+								</blockquote>
+								<p>No matter how you design your haftseen I wish you and your family a new year full of health, wealth and new possibilities! Eide shoma mobarak (happy new year)!</p>
+								
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen0.JPG" alt="Haftseen Table">
+									</div>
+								</div>
+							</div>
+						</div>
+            
+					</div>
+				</div>
+		 	
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
+					<div class="right-side-blog">
+					<h3>Blog Gallery</h3>
+						<div class="post-box-blog">
+							<div class="recent-post-box">
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen.JPG" alt="Haftseen Table">
+									</div>
+									<!--
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Elizabeth Moradi</span></li>
+											<li>~</li>
+											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
+										</ul>
+										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
+									</div>
+									-->
+								</div>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen0.JPG" alt="Haftseen Table">
+									</div>
+									<!--
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Elizabeth Moradi</span></li>
+											<li>~</li>
+											<li><i class="zmdi zmdi-time"></i>Time : <span>4.24 pm</span></li>
+										</ul>
+										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
+									</div>
+									-->
+								</div>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen1.JPG" alt="Haftseen Table">
+									</div>
+									<!--
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Elizabeth Moradi</span></li>
+											<li>~</li>
+											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
+										</ul>
+										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
+									</div>
+									-->
+								</div>
+								<div class="recent-box-blog">
+									<div class="recent-img">
+										<img class="img-fluid rounded" src="images/Haftseen2.JPG" alt="Haftseen Table">
+									</div>
+									<!--
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Elizabeth Moradi</span></li>
+											<li>~</li>
+											<li><i class="zmdi zmdi-time"></i>Time : <span>11.30 am</span></li>
+										</ul>
+										<h4>Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium.</h4>
+									</div>
+									-->
+								</div>
+								
+								
+								
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End details -->
+  
+	<!-- Start Social info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row justify-content-center">
+					<div class="overflow-hidden">
+							<a href="https://www.instagram.com/blissedevents/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<a href="https://www.facebook.com/pages/category/Event-Planner/Blissed-Events-107044914086645/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<a href="https://vm.tiktok.com/ZMJAKJtPh/" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok" aria-hidden="true"></i></a></li>
+							<a href="https://www.yelp.com/biz/blissed-events-calabasas?osq=blissed+events" target="_blank" rel="noopener noreferrer"><i class="fa fa-yelp" aria-hidden="true"></i></a></li>
+					</div>
+			</div>
+			<div class="row justify-content-center">
+				<a href="#"><img src="images/aaa.png" alt="✨Blissed Events 📍Calabasas, CA"></a>
+			</div>
+			<div class="row justify-content-center">
+				<div class="overflow-hidden">
+					<p>All rights reserved © 2019 to present ~ Developed by <span style="color:#1A3952"><a href="http://abtinbidgoli.github.io/abe" target="_blank" rel="noopener noreferrer">com.abtinbidgoli</a></span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Social info -->
+    
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
